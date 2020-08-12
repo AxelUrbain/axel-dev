@@ -1,0 +1,22 @@
+name: Theme du site
+type: theme
+description: Mon theme perso
+package: MonSite
+core: 8.x
+regions:
+  header: 'Top Bar'
+  navigation: 'Navigation'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+  - axelblog/custom
+  - axelblog/bootstrap_cdn
+  - axelblog/rubik_font
+  - axelblog/font_awesome
+
